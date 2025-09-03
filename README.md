@@ -5,31 +5,34 @@
 After clicking the GitHub Classroom link and accepting the assignment:
 
 1. **Clone your repository**:
-   - Copy the repository URL from your GitHub page
+   - Copy the repository URL from your GitHub page (Under `Code`, `SSH`)
    - Open VS Code
-   - Open terminal in VS Code: `Cmd + `` (Mac) or `Ctrl + `` (Windows/Linux)
-   - Navigate to your course directory and clone, for example, if you are storing your course files in `Desktop/cs100`:
+   - Open terminal in VS Code
+   - Navigate to your course `activities` directory and clone, for example, if you are storing your course files in `Desktop/cs100/activities`:
    ```bash
-   cd Desktop/cs100    # or wherever you keep course files
+   cd Desktop/cs100/activities    # or wherever you keep course files
    git clone [YOUR_REPOSITORY_URL]
-   cd practice_activity
+   cd git_activity
    ```
 
 2. **Open the project in VS Code**:
+
+   Using VS Code menu: File → Open Folder → select your `git_activity` directory
+
+   You can also type the command below in your terminal but it will open the directory in a new VS Code window'
+   
    ```bash
    code .    # Opens current directory in VS Code
    ```
    
-   Or use VS Code menu: File → Open Folder → select your practice_activity folder
-
 ## Python Programming Practice
 
-Now that you know terminal navigation from class, let's create and run Python programs in VS Code.
+Now let's create and run Python programs in VS Code.
 
 ### Create Your First Python File
 
 1. **Create a new Python file**:
-   - In VS Code, right-click in the Explorer panel
+   - In VS Code, right-click in the Explorer panel or Click on "File" in the menu
    - Select "New File"
    - Name it `hello_world.py`
 
@@ -54,7 +57,6 @@ Now that you know terminal navigation from class, let's create and run Python pr
 
 3. **Run your Python program**:
    - In VS Code terminal: `python3 hello_world.py`
-   - Or right-click the file and select "Run Python File in Terminal"
 
 ## Git Workflow Practice
 
@@ -94,11 +96,11 @@ git config --global user.email "your.email@allegheny.edu"
    ```
 
 5. **Verify on GitHub**:
-   - Go to your repository on GitHub
+   - Go to your repository on GitHub's website
    - Refresh the page
    - You should see your new Python files
 
-### 🎯 Git Challenge
+### Git Challenge
 Practice the complete workflow:
 
 1. Make a small change to one of your Python files (add a comment)
